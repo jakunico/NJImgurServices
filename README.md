@@ -188,7 +188,7 @@ You must unregister yourself as an observer if you're going to be deallocated. Y
 
 ##Checking credits
 
-The NJIUploadResponse object that is provided as a response for an upload contains the remaining credits your app or the logged user has. You can check it as follows:
+You can check remaining credits after uploading an image as follows:
 
 ```objective-c
 - (void)finishedUploadingImage:(NJIUpload *)image withResult:(NJIUploadImageResponse *)uploadResponse
