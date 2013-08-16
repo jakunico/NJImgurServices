@@ -215,4 +215,4 @@ This will give you extra minutes to finish the uploads. Background tasking is li
 
 #License
 
-Everything here is licensed under [GNU General Public License](http://www.gnu.org/licenses/gpl-3.0.html).
+Everything here is licensed under [GNU General Public License v3](http://www.gnu.org/licenses/gpl-3.0.html).
