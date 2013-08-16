@@ -212,3 +212,7 @@ You can continue uploading images after the application is sent to the backgroun
 ```
 
 This will give you extra minutes to finish the uploads. Background tasking is limited by iOS, I think you have around 10 minutes before your app completely stops executing code.
+
+#License
+
+Everything here is licensed under [GNU General Public License](http://www.gnu.org/licenses/gpl-3.0.html).
