@@ -1,0 +1,9 @@
+Version 0.1 - Released on August 16th, 2013
+
+- Upload images anonymously.
+- Login user.
+- Upload images to logged user's account.
+- Session is automatically renewed on expiration.
+- Access Token and Refresh Token are securely stored in the system's keychain.
+- Support for background uploading.
+- Universal framework.

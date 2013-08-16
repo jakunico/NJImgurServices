@@ -1,0 +1,1199 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE1BB863176D2B1E0083A109 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE1BB862176D2B1E0083A109 /* Foundation.framework */; };
+		FE1BB872176D2B1E0083A109 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE1BB871176D2B1E0083A109 /* SenTestingKit.framework */; };
+		FE1BB875176D2B1E0083A109 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE1BB862176D2B1E0083A109 /* Foundation.framework */; };
+		FE1BB878176D2B1E0083A109 /* libNJImgurServices.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FE1BB85F176D2B1E0083A109 /* libNJImgurServices.a */; };
+		FE1BB87E176D2B1E0083A109 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FE1BB87C176D2B1E0083A109 /* InfoPlist.strings */; };
+		FE1BB88C176D2B7B0083A109 /* NJIController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE1BB88B176D2B7B0083A109 /* NJIController.m */; };
+		FE1BB88D176D2B7B0083A109 /* NJIController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE1BB88B176D2B7B0083A109 /* NJIController.m */; };
+		FE1BB890176D2C330083A109 /* NJIUpload.m in Sources */ = {isa = PBXBuildFile; fileRef = FE1BB88F176D2C330083A109 /* NJIUpload.m */; };
+		FE1BB891176D2C330083A109 /* NJIUpload.m in Sources */ = {isa = PBXBuildFile; fileRef = FE1BB88F176D2C330083A109 /* NJIUpload.m */; };
+		FE1BB893176D2C780083A109 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE1BB892176D2C780083A109 /* UIKit.framework */; };
+		FE1BB89D176D7AE30083A109 /* NJIImage.m in Sources */ = {isa = PBXBuildFile; fileRef = FE1BB89C176D7AE30083A109 /* NJIImage.m */; };
+		FE1BB89E176D7AE30083A109 /* NJIImage.m in Sources */ = {isa = PBXBuildFile; fileRef = FE1BB89C176D7AE30083A109 /* NJIImage.m */; };
+		FE1BB8A3176D7E050083A109 /* NJIUploadOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = FE1BB8A2176D7E050083A109 /* NJIUploadOperation.m */; };
+		FE1BB8A4176D7E050083A109 /* NJIUploadOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = FE1BB8A2176D7E050083A109 /* NJIUploadOperation.m */; };
+		FE1BB8A7176D7F3B0083A109 /* NJIUploadController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE1BB8A6176D7F3A0083A109 /* NJIUploadController.m */; };
+		FE1BB8A8176D7F3B0083A109 /* NJIUploadController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE1BB8A6176D7F3A0083A109 /* NJIUploadController.m */; };
+		FE1BB8B1176D8B1A0083A109 /* NJIUser.m in Sources */ = {isa = PBXBuildFile; fileRef = FE1BB8B0176D8B1A0083A109 /* NJIUser.m */; };
+		FE1BB8B2176D8B1A0083A109 /* NJIUser.m in Sources */ = {isa = PBXBuildFile; fileRef = FE1BB8B0176D8B1A0083A109 /* NJIUser.m */; };
+		FE1BB8B5176D8B4A0083A109 /* NJILoggedUser.m in Sources */ = {isa = PBXBuildFile; fileRef = FE1BB8B4176D8B490083A109 /* NJILoggedUser.m */; };
+		FE1BB8B6176D8B4A0083A109 /* NJILoggedUser.m in Sources */ = {isa = PBXBuildFile; fileRef = FE1BB8B4176D8B490083A109 /* NJILoggedUser.m */; };
+		FE1BB8D1176E30E90083A109 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = FE1BB8CF176E30E90083A109 /* NSData+Base64.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FE1BB8D2176E30E90083A109 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = FE1BB8CF176E30E90083A109 /* NSData+Base64.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FE1BB8D6176E34900083A109 /* NJIAPIEndpoints.m in Sources */ = {isa = PBXBuildFile; fileRef = FE1BB8D5176E34900083A109 /* NJIAPIEndpoints.m */; };
+		FE1BB8D7176E34900083A109 /* NJIAPIEndpoints.m in Sources */ = {isa = PBXBuildFile; fileRef = FE1BB8D5176E34900083A109 /* NJIAPIEndpoints.m */; };
+		FE1BB8DA176E3F650083A109 /* NJIRequestParameter.m in Sources */ = {isa = PBXBuildFile; fileRef = FE1BB8D9176E3F650083A109 /* NJIRequestParameter.m */; };
+		FE1BB8DB176E3F650083A109 /* NJIRequestParameter.m in Sources */ = {isa = PBXBuildFile; fileRef = FE1BB8D9176E3F650083A109 /* NJIRequestParameter.m */; };
+		FE1BB8E2176E41890083A109 /* NJIMutableURLRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = FE1BB8E1176E41890083A109 /* NJIMutableURLRequest.m */; };
+		FE1BB8E3176E41890083A109 /* NJIMutableURLRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = FE1BB8E1176E41890083A109 /* NJIMutableURLRequest.m */; };
+		FE1BB8E7176E420A0083A109 /* NJIUploadFileRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = FE1BB8E6176E420A0083A109 /* NJIUploadFileRequest.m */; };
+		FE1BB8E8176E420A0083A109 /* NJIUploadFileRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = FE1BB8E6176E420A0083A109 /* NJIUploadFileRequest.m */; };
+		FE1BB8EC176E4BC00083A109 /* NJIURLConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = FE1BB8EB176E4BC00083A109 /* NJIURLConnection.m */; };
+		FE1BB8ED176E4BC00083A109 /* NJIURLConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = FE1BB8EB176E4BC00083A109 /* NJIURLConnection.m */; };
+		FE1BB8F2176E53D60083A109 /* NJIHTTPURLResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = FE1BB8F1176E53D60083A109 /* NJIHTTPURLResponse.m */; };
+		FE1BB8F3176E53D60083A109 /* NJIHTTPURLResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = FE1BB8F1176E53D60083A109 /* NJIHTTPURLResponse.m */; };
+		FE1BB8F9176E63A20083A109 /* NJIApiModelObject.m in Sources */ = {isa = PBXBuildFile; fileRef = FE1BB8F8176E63A20083A109 /* NJIApiModelObject.m */; };
+		FE1BB8FA176E63A20083A109 /* NJIApiModelObject.m in Sources */ = {isa = PBXBuildFile; fileRef = FE1BB8F8176E63A20083A109 /* NJIApiModelObject.m */; };
+		FE3FC3E417B077BD00524996 /* NJICreditsRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = FE3FC3E217B077BD00524996 /* NJICreditsRequest.h */; };
+		FE3FC3E517B077BD00524996 /* NJICreditsRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3FC3E317B077BD00524996 /* NJICreditsRequest.m */; };
+		FE3FC3E817B07A3E00524996 /* NJICredits.h in Headers */ = {isa = PBXBuildFile; fileRef = FE3FC3E617B07A3E00524996 /* NJICredits.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE3FC3E917B07A3E00524996 /* NJICredits.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3FC3E717B07A3E00524996 /* NJICredits.m */; };
+		FE3FC47F17BDAE6400524996 /* NSHTTPURLResponse+NJIAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = FE3FC47B17BDAE6400524996 /* NSHTTPURLResponse+NJIAdditions.h */; };
+		FE3FC48017BDAE6400524996 /* NSHTTPURLResponse+NJIAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3FC47C17BDAE6400524996 /* NSHTTPURLResponse+NJIAdditions.m */; };
+		FE3FC48117BDAE6400524996 /* NSString+URLEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3FC47D17BDAE6400524996 /* NSString+URLEncoding.m */; };
+		FE3FC48217BDAE6400524996 /* NSString+URLEncoding.h in Headers */ = {isa = PBXBuildFile; fileRef = FE3FC47E17BDAE6400524996 /* NSString+URLEncoding.h */; };
+		FE3FC4AD17BDC12E00524996 /* NSString+URLEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3FC47D17BDAE6400524996 /* NSString+URLEncoding.m */; };
+		FE3FC4AE17BDC17A00524996 /* NSHTTPURLResponse+NJIAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3FC47C17BDAE6400524996 /* NSHTTPURLResponse+NJIAdditions.m */; };
+		FE43F853177A644C004AA797 /* NJIRefreshTokenRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = FE43F851177A644C004AA797 /* NJIRefreshTokenRequest.h */; };
+		FE43F854177A644C004AA797 /* NJIRefreshTokenRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = FE43F852177A644C004AA797 /* NJIRefreshTokenRequest.m */; };
+		FE43F855177A644C004AA797 /* NJIRefreshTokenRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = FE43F852177A644C004AA797 /* NJIRefreshTokenRequest.m */; };
+		FE43F85D177A6649004AA797 /* NJIRefreshTokenResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = FE43F85B177A6649004AA797 /* NJIRefreshTokenResponse.h */; };
+		FE43F85E177A6649004AA797 /* NJIRefreshTokenResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = FE43F85C177A6649004AA797 /* NJIRefreshTokenResponse.m */; };
+		FE43F85F177A6649004AA797 /* NJIRefreshTokenResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = FE43F85C177A6649004AA797 /* NJIRefreshTokenResponse.m */; };
+		FE43F862177A6F06004AA797 /* NJIJSONController.h in Headers */ = {isa = PBXBuildFile; fileRef = FE43F860177A6F06004AA797 /* NJIJSONController.h */; };
+		FE43F863177A6F06004AA797 /* NJIJSONController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE43F861177A6F06004AA797 /* NJIJSONController.m */; };
+		FE43F864177A6F06004AA797 /* NJIJSONController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE43F861177A6F06004AA797 /* NJIJSONController.m */; };
+		FE555EDC17760F9800B58D87 /* NJIBasic.m in Sources */ = {isa = PBXBuildFile; fileRef = FE555EDB17760F9800B58D87 /* NJIBasic.m */; };
+		FE555EDD17760F9800B58D87 /* NJIBasic.m in Sources */ = {isa = PBXBuildFile; fileRef = FE555EDB17760F9800B58D87 /* NJIBasic.m */; };
+		FE555EE11776128200B58D87 /* NJIBaseResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = FE555EE01776128200B58D87 /* NJIBaseResponse.m */; };
+		FE555EE21776128200B58D87 /* NJIBaseResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = FE555EE01776128200B58D87 /* NJIBaseResponse.m */; };
+		FE555EE51776129500B58D87 /* NJIUploadImageResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = FE555EE41776129500B58D87 /* NJIUploadImageResponse.m */; };
+		FE555EE61776129500B58D87 /* NJIUploadImageResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = FE555EE41776129500B58D87 /* NJIUploadImageResponse.m */; };
+		FE555EE9177619FD00B58D87 /* NJIUploadImageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE555EE8177619FD00B58D87 /* NJIUploadImageTests.m */; };
+		FE555EEC17761AB400B58D87 /* testImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE555EEB17761AB400B58D87 /* testImage.jpg */; };
+		FE555EF017761CE500B58D87 /* NJIDateUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = FE555EEF17761CE500B58D87 /* NJIDateUtils.m */; };
+		FE555EF117761CE500B58D87 /* NJIDateUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = FE555EEF17761CE500B58D87 /* NJIDateUtils.m */; };
+		FE555EF217761F9700B58D87 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE1BB892176D2C780083A109 /* UIKit.framework */; };
+		FE555EF517763B1500B58D87 /* NJIUploadImageTimeoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE555EF417763B1500B58D87 /* NJIUploadImageTimeoutTests.m */; };
+		FE652264179C6BE200C11B38 /* PDKeychainBindings.h in Headers */ = {isa = PBXBuildFile; fileRef = FE652260179C6BE200C11B38 /* PDKeychainBindings.h */; };
+		FE652265179C6BE200C11B38 /* PDKeychainBindings.m in Sources */ = {isa = PBXBuildFile; fileRef = FE652261179C6BE200C11B38 /* PDKeychainBindings.m */; };
+		FE652266179C6BE200C11B38 /* PDKeychainBindings.m in Sources */ = {isa = PBXBuildFile; fileRef = FE652261179C6BE200C11B38 /* PDKeychainBindings.m */; };
+		FE652267179C6BE200C11B38 /* PDKeychainBindingsController.h in Headers */ = {isa = PBXBuildFile; fileRef = FE652262179C6BE200C11B38 /* PDKeychainBindingsController.h */; };
+		FE652268179C6BE200C11B38 /* PDKeychainBindingsController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE652263179C6BE200C11B38 /* PDKeychainBindingsController.m */; };
+		FE652269179C6BE200C11B38 /* PDKeychainBindingsController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE652263179C6BE200C11B38 /* PDKeychainBindingsController.m */; };
+		FE65226B179C6F0900C11B38 /* NJILog.h in Headers */ = {isa = PBXBuildFile; fileRef = FE65226A179C6F0900C11B38 /* NJILog.h */; };
+		FE65226F179C716E00C11B38 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE65226C179C705700C11B38 /* Security.framework */; };
+		FE652271179C71C600C11B38 /* testImage.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FE652270179C71C600C11B38 /* testImage.jpeg */; };
+		FE652272179C71C600C11B38 /* testImage.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FE652270179C71C600C11B38 /* testImage.jpeg */; };
+		FE652275179C782E00C11B38 /* NJISessionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE652274179C782E00C11B38 /* NJISessionTests.m */; };
+		FE652276179C7E0100C11B38 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE65226C179C705700C11B38 /* Security.framework */; };
+		FEDEACD7177661ED009C7D6A /* NJIDateUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = FE555EEE17761CE500B58D87 /* NJIDateUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FEDEACDC177661ED009C7D6A /* NJIUploadDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = FE1BB894176D2CF00083A109 /* NJIUploadDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FEDEACDD177661ED009C7D6A /* NJILoginDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = FE1BB8AE176D89C70083A109 /* NJILoginDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FEDEACDE177661ED009C7D6A /* NJIRequestParameterProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = FE1BB8E9176E45AB0083A109 /* NJIRequestParameterProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FEDEACDF177661ED009C7D6A /* NJIResponseObject.h in Headers */ = {isa = PBXBuildFile; fileRef = FE1BB8F5176E61ED0083A109 /* NJIResponseObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FEDEACE0177661ED009C7D6A /* NJIBaseResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = FE555EDF1776128200B58D87 /* NJIBaseResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FEDEACE1177661ED009C7D6A /* NJIUploadImageResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = FE555EE31776129500B58D87 /* NJIUploadImageResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FEDEACE2177661ED009C7D6A /* NJIUploadOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = FE1BB8A1176D7E050083A109 /* NJIUploadOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FEDEACE3177661ED009C7D6A /* NJIMutableURLRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = FE1BB8E0176E41890083A109 /* NJIMutableURLRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FEDEACE4177661ED009C7D6A /* NJIUploadFileRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = FE1BB8E5176E420A0083A109 /* NJIUploadFileRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FEDEACE5177661ED009C7D6A /* NJIUploadController.h in Headers */ = {isa = PBXBuildFile; fileRef = FE1BB8A5176D7F3A0083A109 /* NJIUploadController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FEDEACE6177661ED009C7D6A /* NJIRequestParameter.h in Headers */ = {isa = PBXBuildFile; fileRef = FE1BB8D8176E3F650083A109 /* NJIRequestParameter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FEDEACE7177661ED009C7D6A /* NJIURLConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = FE1BB8EA176E4BBF0083A109 /* NJIURLConnection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FEDEACE8177661ED009C7D6A /* NJIResponseStatus.h in Headers */ = {isa = PBXBuildFile; fileRef = FE1BB8EE176E50E80083A109 /* NJIResponseStatus.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FEDEACE9177661ED009C7D6A /* NJIHTTPURLResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = FE1BB8F0176E53D60083A109 /* NJIHTTPURLResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FEDEACEA177661ED009C7D6A /* NSData+Base64.h in Headers */ = {isa = PBXBuildFile; fileRef = FE1BB8D0176E30E90083A109 /* NSData+Base64.h */; settings = {ATTRIBUTES = (); }; };
+		FEDEACED177661ED009C7D6A /* NJIConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = FE1BB8A9176D80510083A109 /* NJIConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FEDEACEE177661ED009C7D6A /* NJIAPIEndpoints.h in Headers */ = {isa = PBXBuildFile; fileRef = FE1BB8D4176E34900083A109 /* NJIAPIEndpoints.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FEDEACF1177661ED009C7D6A /* NJIApiModelObject.h in Headers */ = {isa = PBXBuildFile; fileRef = FE1BB8F7176E63A20083A109 /* NJIApiModelObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FEDEACF2177661ED009C7D6A /* NJIImage.h in Headers */ = {isa = PBXBuildFile; fileRef = FE1BB89B176D7AE30083A109 /* NJIImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FEDEACF3177661ED009C7D6A /* NJIBasic.h in Headers */ = {isa = PBXBuildFile; fileRef = FE555EDA17760F9700B58D87 /* NJIBasic.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FEDEACF4177661ED009C7D6A /* NJIController.h in Headers */ = {isa = PBXBuildFile; fileRef = FE1BB88A176D2B7B0083A109 /* NJIController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FEDEACF5177661ED009C7D6A /* NJIUpload.h in Headers */ = {isa = PBXBuildFile; fileRef = FE1BB88E176D2C330083A109 /* NJIUpload.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FEDEACF6177661ED009C7D6A /* NJIUser.h in Headers */ = {isa = PBXBuildFile; fileRef = FE1BB8AF176D8B1A0083A109 /* NJIUser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FEDEACF7177661ED009C7D6A /* NJILoggedUser.h in Headers */ = {isa = PBXBuildFile; fileRef = FE1BB8B3176D8B490083A109 /* NJILoggedUser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FEDEAD00177662A1009C7D6A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE1BB892176D2C780083A109 /* UIKit.framework */; };
+		FEDEAD01177662A1009C7D6A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE1BB862176D2B1E0083A109 /* Foundation.framework */; };
+		FEDEAD02177662A1009C7D6A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE555F5917765D8E00B58D87 /* CoreGraphics.framework */; };
+		FEDEAD08177662A1009C7D6A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FEDEAD06177662A1009C7D6A /* InfoPlist.strings */; };
+		FEDEAD0A177662A1009C7D6A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FEDEAD09177662A1009C7D6A /* main.m */; };
+		FEDEAD0E177662A1009C7D6A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FEDEAD0D177662A1009C7D6A /* AppDelegate.m */; };
+		FEDEAD10177662A1009C7D6A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FEDEAD0F177662A1009C7D6A /* Default.png */; };
+		FEDEAD12177662A1009C7D6A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FEDEAD11177662A1009C7D6A /* Default@2x.png */; };
+		FEDEAD14177662A1009C7D6A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FEDEAD13177662A1009C7D6A /* Default-568h@2x.png */; };
+		FEDEAD17177662A1009C7D6A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEDEAD16177662A1009C7D6A /* ViewController.m */; };
+		FEDEAD1A177662A1009C7D6A /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEDEAD18177662A1009C7D6A /* ViewController.xib */; };
+		FEDEAD2517766747009C7D6A /* libNJImgurServices.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FE1BB85F176D2B1E0083A109 /* libNJImgurServices.a */; };
+		FEDEADAD17768B93009C7D6A /* NJIAuthenticationController.h in Headers */ = {isa = PBXBuildFile; fileRef = FEDEADAB17768B93009C7D6A /* NJIAuthenticationController.h */; };
+		FEDEADAE17768B93009C7D6A /* NJIAuthenticationController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEDEADAC17768B93009C7D6A /* NJIAuthenticationController.m */; };
+		FEDEADAF17768B93009C7D6A /* NJIAuthenticationController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEDEADAC17768B93009C7D6A /* NJIAuthenticationController.m */; };
+		FEDEADB417769CC8009C7D6A /* NJIBaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = FEDEADB217769CC8009C7D6A /* NJIBaseViewController.h */; };
+		FEDEADB517769CC8009C7D6A /* NJIBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEDEADB317769CC8009C7D6A /* NJIBaseViewController.m */; };
+		FEDEADB617769CC8009C7D6A /* NJIBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEDEADB317769CC8009C7D6A /* NJIBaseViewController.m */; };
+		FEDEADB917769CE2009C7D6A /* NJILoginViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = FEDEADB717769CE2009C7D6A /* NJILoginViewController.h */; };
+		FEDEADBA17769CE2009C7D6A /* NJILoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEDEADB817769CE2009C7D6A /* NJILoginViewController.m */; };
+		FEDEADBB17769CE2009C7D6A /* NJILoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEDEADB817769CE2009C7D6A /* NJILoginViewController.m */; };
+		FEDEADBE177746F0009C7D6A /* NJINotifications.h in Headers */ = {isa = PBXBuildFile; fileRef = FEDEADBD177746F0009C7D6A /* NJINotifications.h */; };
+		FEDEADC117775976009C7D6A /* NJIFileManagerController.h in Headers */ = {isa = PBXBuildFile; fileRef = FEDEADBF17775976009C7D6A /* NJIFileManagerController.h */; };
+		FEDEADC217775976009C7D6A /* NJIFileManagerController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEDEADC017775976009C7D6A /* NJIFileManagerController.m */; };
+		FEDEADC317775976009C7D6A /* NJIFileManagerController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEDEADC017775976009C7D6A /* NJIFileManagerController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FE1BB876176D2B1E0083A109 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE1BB857176D2B1D0083A109 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE1BB85E176D2B1D0083A109;
+			remoteInfo = NJImgurServices;
+		};
+		FEDEAD1E177662AB009C7D6A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE1BB857176D2B1D0083A109 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE1BB85E176D2B1D0083A109;
+			remoteInfo = NJImgurServices;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FE1BB85F176D2B1E0083A109 /* libNJImgurServices.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libNJImgurServices.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE1BB862176D2B1E0083A109 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FE1BB866176D2B1E0083A109 /* NJImgurServices-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NJImgurServices-Prefix.pch"; sourceTree = "<group>"; };
+		FE1BB870176D2B1E0083A109 /* NJImgurServicesTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NJImgurServicesTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE1BB871176D2B1E0083A109 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		FE1BB87B176D2B1E0083A109 /* NJImgurServicesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NJImgurServicesTests-Info.plist"; sourceTree = "<group>"; };
+		FE1BB87D176D2B1E0083A109 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FE1BB88A176D2B7B0083A109 /* NJIController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJIController.h; sourceTree = "<group>"; };
+		FE1BB88B176D2B7B0083A109 /* NJIController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJIController.m; sourceTree = "<group>"; };
+		FE1BB88E176D2C330083A109 /* NJIUpload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJIUpload.h; sourceTree = "<group>"; };
+		FE1BB88F176D2C330083A109 /* NJIUpload.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJIUpload.m; sourceTree = "<group>"; };
+		FE1BB892176D2C780083A109 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FE1BB894176D2CF00083A109 /* NJIUploadDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJIUploadDelegate.h; sourceTree = "<group>"; };
+		FE1BB89B176D7AE30083A109 /* NJIImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJIImage.h; sourceTree = "<group>"; };
+		FE1BB89C176D7AE30083A109 /* NJIImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJIImage.m; sourceTree = "<group>"; };
+		FE1BB8A1176D7E050083A109 /* NJIUploadOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJIUploadOperation.h; sourceTree = "<group>"; };
+		FE1BB8A2176D7E050083A109 /* NJIUploadOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJIUploadOperation.m; sourceTree = "<group>"; };
+		FE1BB8A5176D7F3A0083A109 /* NJIUploadController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJIUploadController.h; sourceTree = "<group>"; };
+		FE1BB8A6176D7F3A0083A109 /* NJIUploadController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJIUploadController.m; sourceTree = "<group>"; };
+		FE1BB8A9176D80510083A109 /* NJIConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJIConstants.h; sourceTree = "<group>"; };
+		FE1BB8AE176D89C70083A109 /* NJILoginDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJILoginDelegate.h; sourceTree = "<group>"; };
+		FE1BB8AF176D8B1A0083A109 /* NJIUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJIUser.h; sourceTree = "<group>"; };
+		FE1BB8B0176D8B1A0083A109 /* NJIUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJIUser.m; sourceTree = "<group>"; };
+		FE1BB8B3176D8B490083A109 /* NJILoggedUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJILoggedUser.h; sourceTree = "<group>"; };
+		FE1BB8B4176D8B490083A109 /* NJILoggedUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJILoggedUser.m; sourceTree = "<group>"; };
+		FE1BB8CF176E30E90083A109 /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSData+Base64.m"; path = "NJImgurServices/NSData+Base64.m"; sourceTree = "<group>"; };
+		FE1BB8D0176E30E90083A109 /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSData+Base64.h"; path = "NJImgurServices/NSData+Base64.h"; sourceTree = "<group>"; };
+		FE1BB8D4176E34900083A109 /* NJIAPIEndpoints.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJIAPIEndpoints.h; sourceTree = "<group>"; };
+		FE1BB8D5176E34900083A109 /* NJIAPIEndpoints.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJIAPIEndpoints.m; sourceTree = "<group>"; };
+		FE1BB8D8176E3F650083A109 /* NJIRequestParameter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJIRequestParameter.h; sourceTree = "<group>"; };
+		FE1BB8D9176E3F650083A109 /* NJIRequestParameter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJIRequestParameter.m; sourceTree = "<group>"; };
+		FE1BB8E0176E41890083A109 /* NJIMutableURLRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJIMutableURLRequest.h; sourceTree = "<group>"; };
+		FE1BB8E1176E41890083A109 /* NJIMutableURLRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJIMutableURLRequest.m; sourceTree = "<group>"; };
+		FE1BB8E5176E420A0083A109 /* NJIUploadFileRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJIUploadFileRequest.h; sourceTree = "<group>"; };
+		FE1BB8E6176E420A0083A109 /* NJIUploadFileRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJIUploadFileRequest.m; sourceTree = "<group>"; };
+		FE1BB8E9176E45AB0083A109 /* NJIRequestParameterProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJIRequestParameterProtocol.h; sourceTree = "<group>"; };
+		FE1BB8EA176E4BBF0083A109 /* NJIURLConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJIURLConnection.h; sourceTree = "<group>"; };
+		FE1BB8EB176E4BC00083A109 /* NJIURLConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJIURLConnection.m; sourceTree = "<group>"; };
+		FE1BB8EE176E50E80083A109 /* NJIResponseStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJIResponseStatus.h; sourceTree = "<group>"; };
+		FE1BB8F0176E53D60083A109 /* NJIHTTPURLResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJIHTTPURLResponse.h; sourceTree = "<group>"; };
+		FE1BB8F1176E53D60083A109 /* NJIHTTPURLResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJIHTTPURLResponse.m; sourceTree = "<group>"; };
+		FE1BB8F5176E61ED0083A109 /* NJIResponseObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJIResponseObject.h; sourceTree = "<group>"; };
+		FE1BB8F7176E63A20083A109 /* NJIApiModelObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJIApiModelObject.h; sourceTree = "<group>"; };
+		FE1BB8F8176E63A20083A109 /* NJIApiModelObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJIApiModelObject.m; sourceTree = "<group>"; };
+		FE3FC3E217B077BD00524996 /* NJICreditsRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJICreditsRequest.h; sourceTree = "<group>"; };
+		FE3FC3E317B077BD00524996 /* NJICreditsRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJICreditsRequest.m; sourceTree = "<group>"; };
+		FE3FC3E617B07A3E00524996 /* NJICredits.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJICredits.h; sourceTree = "<group>"; };
+		FE3FC3E717B07A3E00524996 /* NJICredits.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJICredits.m; sourceTree = "<group>"; };
+		FE3FC47B17BDAE6400524996 /* NSHTTPURLResponse+NJIAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSHTTPURLResponse+NJIAdditions.h"; path = "NJImgurServices/NSHTTPURLResponse+NJIAdditions.h"; sourceTree = "<group>"; };
+		FE3FC47C17BDAE6400524996 /* NSHTTPURLResponse+NJIAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSHTTPURLResponse+NJIAdditions.m"; path = "NJImgurServices/NSHTTPURLResponse+NJIAdditions.m"; sourceTree = "<group>"; };
+		FE3FC47D17BDAE6400524996 /* NSString+URLEncoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+URLEncoding.m"; path = "NJImgurServices/NSString+URLEncoding.m"; sourceTree = "<group>"; };
+		FE3FC47E17BDAE6400524996 /* NSString+URLEncoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+URLEncoding.h"; path = "NJImgurServices/NSString+URLEncoding.h"; sourceTree = "<group>"; };
+		FE3FC4AC17BDBD5100524996 /* Deployment */ = {isa = PBXFileReference; lastKnownFileType = text; path = Deployment; sourceTree = "<group>"; };
+		FE43F851177A644C004AA797 /* NJIRefreshTokenRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJIRefreshTokenRequest.h; sourceTree = "<group>"; };
+		FE43F852177A644C004AA797 /* NJIRefreshTokenRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJIRefreshTokenRequest.m; sourceTree = "<group>"; };
+		FE43F85B177A6649004AA797 /* NJIRefreshTokenResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJIRefreshTokenResponse.h; sourceTree = "<group>"; };
+		FE43F85C177A6649004AA797 /* NJIRefreshTokenResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJIRefreshTokenResponse.m; sourceTree = "<group>"; };
+		FE43F860177A6F06004AA797 /* NJIJSONController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJIJSONController.h; sourceTree = "<group>"; };
+		FE43F861177A6F06004AA797 /* NJIJSONController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJIJSONController.m; sourceTree = "<group>"; };
+		FE555EC41776078700B58D87 /* TODOs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TODOs; sourceTree = "<group>"; };
+		FE555EDA17760F9700B58D87 /* NJIBasic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJIBasic.h; sourceTree = "<group>"; };
+		FE555EDB17760F9800B58D87 /* NJIBasic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJIBasic.m; sourceTree = "<group>"; };
+		FE555EDF1776128200B58D87 /* NJIBaseResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJIBaseResponse.h; sourceTree = "<group>"; };
+		FE555EE01776128200B58D87 /* NJIBaseResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJIBaseResponse.m; sourceTree = "<group>"; };
+		FE555EE31776129500B58D87 /* NJIUploadImageResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJIUploadImageResponse.h; sourceTree = "<group>"; };
+		FE555EE41776129500B58D87 /* NJIUploadImageResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJIUploadImageResponse.m; sourceTree = "<group>"; };
+		FE555EE7177619FD00B58D87 /* NJIUploadImageTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJIUploadImageTests.h; sourceTree = "<group>"; };
+		FE555EE8177619FD00B58D87 /* NJIUploadImageTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJIUploadImageTests.m; sourceTree = "<group>"; };
+		FE555EEB17761AB400B58D87 /* testImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = testImage.jpg; sourceTree = "<group>"; };
+		FE555EEE17761CE500B58D87 /* NJIDateUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJIDateUtils.h; sourceTree = "<group>"; };
+		FE555EEF17761CE500B58D87 /* NJIDateUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJIDateUtils.m; sourceTree = "<group>"; };
+		FE555EF317763B1500B58D87 /* NJIUploadImageTimeoutTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJIUploadImageTimeoutTests.h; sourceTree = "<group>"; };
+		FE555EF417763B1500B58D87 /* NJIUploadImageTimeoutTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJIUploadImageTimeoutTests.m; sourceTree = "<group>"; };
+		FE555EF617763B6400B58D87 /* NJITestConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJITestConstants.h; sourceTree = "<group>"; };
+		FE555F5917765D8E00B58D87 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FE652260179C6BE200C11B38 /* PDKeychainBindings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDKeychainBindings.h; sourceTree = "<group>"; };
+		FE652261179C6BE200C11B38 /* PDKeychainBindings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDKeychainBindings.m; sourceTree = "<group>"; };
+		FE652262179C6BE200C11B38 /* PDKeychainBindingsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDKeychainBindingsController.h; sourceTree = "<group>"; };
+		FE652263179C6BE200C11B38 /* PDKeychainBindingsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDKeychainBindingsController.m; sourceTree = "<group>"; };
+		FE65226A179C6F0900C11B38 /* NJILog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJILog.h; sourceTree = "<group>"; };
+		FE65226C179C705700C11B38 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		FE652270179C71C600C11B38 /* testImage.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = testImage.jpeg; sourceTree = "<group>"; };
+		FE652273179C782E00C11B38 /* NJISessionTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJISessionTests.h; sourceTree = "<group>"; };
+		FE652274179C782E00C11B38 /* NJISessionTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJISessionTests.m; sourceTree = "<group>"; };
+		FEDEACFF177662A1009C7D6A /* ImgurApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImgurApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEDEAD05177662A1009C7D6A /* ImgurApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ImgurApp-Info.plist"; sourceTree = "<group>"; };
+		FEDEAD07177662A1009C7D6A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FEDEAD09177662A1009C7D6A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FEDEAD0B177662A1009C7D6A /* ImgurApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ImgurApp-Prefix.pch"; sourceTree = "<group>"; };
+		FEDEAD0C177662A1009C7D6A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FEDEAD0D177662A1009C7D6A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FEDEAD0F177662A1009C7D6A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		FEDEAD11177662A1009C7D6A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		FEDEAD13177662A1009C7D6A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		FEDEAD15177662A1009C7D6A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FEDEAD16177662A1009C7D6A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FEDEAD19177662A1009C7D6A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		FEDEADAB17768B93009C7D6A /* NJIAuthenticationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJIAuthenticationController.h; sourceTree = "<group>"; };
+		FEDEADAC17768B93009C7D6A /* NJIAuthenticationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJIAuthenticationController.m; sourceTree = "<group>"; };
+		FEDEADB217769CC8009C7D6A /* NJIBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJIBaseViewController.h; sourceTree = "<group>"; };
+		FEDEADB317769CC8009C7D6A /* NJIBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJIBaseViewController.m; sourceTree = "<group>"; };
+		FEDEADB717769CE2009C7D6A /* NJILoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJILoginViewController.h; sourceTree = "<group>"; };
+		FEDEADB817769CE2009C7D6A /* NJILoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJILoginViewController.m; sourceTree = "<group>"; };
+		FEDEADBD177746F0009C7D6A /* NJINotifications.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJINotifications.h; sourceTree = "<group>"; };
+		FEDEADBF17775976009C7D6A /* NJIFileManagerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJIFileManagerController.h; sourceTree = "<group>"; };
+		FEDEADC017775976009C7D6A /* NJIFileManagerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJIFileManagerController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE1BB85C176D2B1D0083A109 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE1BB893176D2C780083A109 /* UIKit.framework in Frameworks */,
+				FE1BB863176D2B1E0083A109 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE1BB86C176D2B1E0083A109 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE555EF217761F9700B58D87 /* UIKit.framework in Frameworks */,
+				FE1BB872176D2B1E0083A109 /* SenTestingKit.framework in Frameworks */,
+				FE1BB875176D2B1E0083A109 /* Foundation.framework in Frameworks */,
+				FE1BB878176D2B1E0083A109 /* libNJImgurServices.a in Frameworks */,
+				FE652276179C7E0100C11B38 /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEDEACFC177662A1009C7D6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEDEAD2517766747009C7D6A /* libNJImgurServices.a in Frameworks */,
+				FEDEAD00177662A1009C7D6A /* UIKit.framework in Frameworks */,
+				FEDEAD01177662A1009C7D6A /* Foundation.framework in Frameworks */,
+				FEDEAD02177662A1009C7D6A /* CoreGraphics.framework in Frameworks */,
+				FE65226F179C716E00C11B38 /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE1BB856176D2B1D0083A109 = {
+			isa = PBXGroup;
+			children = (
+				FE3FC4AC17BDBD5100524996 /* Deployment */,
+				FE555EC41776078700B58D87 /* TODOs */,
+				FE1BB864176D2B1E0083A109 /* NJImgurServices */,
+				FE1BB879176D2B1E0083A109 /* NJImgurServicesTests */,
+				FEDEAD03177662A1009C7D6A /* ImgurApp */,
+				FE1BB861176D2B1E0083A109 /* Frameworks */,
+				FE1BB860176D2B1E0083A109 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FE1BB860176D2B1E0083A109 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE1BB85F176D2B1E0083A109 /* libNJImgurServices.a */,
+				FE1BB870176D2B1E0083A109 /* NJImgurServicesTests.octest */,
+				FEDEACFF177662A1009C7D6A /* ImgurApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE1BB861176D2B1E0083A109 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FE65226C179C705700C11B38 /* Security.framework */,
+				FE1BB892176D2C780083A109 /* UIKit.framework */,
+				FE1BB862176D2B1E0083A109 /* Foundation.framework */,
+				FE1BB871176D2B1E0083A109 /* SenTestingKit.framework */,
+				FE555F5917765D8E00B58D87 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FE1BB864176D2B1E0083A109 /* NJImgurServices */ = {
+			isa = PBXGroup;
+			children = (
+				FEDEADB117769CA4009C7D6A /* UIViewControllers */,
+				FE555EED17761CCA00B58D87 /* Utils */,
+				FE555EC6177608B200B58D87 /* Third Party */,
+				FE1BB8F4176E617E0083A109 /* Protocols */,
+				FE1BB8A0176D7DD80083A109 /* Server */,
+				FE1BB8D3176E30F30083A109 /* Categories */,
+				FE1BB865176D2B1E0083A109 /* Supporting Files */,
+				FE1BB89F176D7CA20083A109 /* Model */,
+			);
+			path = NJImgurServices;
+			sourceTree = "<group>";
+		};
+		FE1BB865176D2B1E0083A109 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FE1BB866176D2B1E0083A109 /* NJImgurServices-Prefix.pch */,
+				FE1BB8A9176D80510083A109 /* NJIConstants.h */,
+				FE1BB8D4176E34900083A109 /* NJIAPIEndpoints.h */,
+				FE1BB8D5176E34900083A109 /* NJIAPIEndpoints.m */,
+				FEDEADBD177746F0009C7D6A /* NJINotifications.h */,
+				FE65226A179C6F0900C11B38 /* NJILog.h */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FE1BB879176D2B1E0083A109 /* NJImgurServicesTests */ = {
+			isa = PBXGroup;
+			children = (
+				FE1BB87A176D2B1E0083A109 /* Supporting Files */,
+				FE555EEA17761A0800B58D87 /* Resources */,
+				FE555EE7177619FD00B58D87 /* NJIUploadImageTests.h */,
+				FE555EE8177619FD00B58D87 /* NJIUploadImageTests.m */,
+				FE555EF317763B1500B58D87 /* NJIUploadImageTimeoutTests.h */,
+				FE555EF417763B1500B58D87 /* NJIUploadImageTimeoutTests.m */,
+				FE555EF617763B6400B58D87 /* NJITestConstants.h */,
+				FE652273179C782E00C11B38 /* NJISessionTests.h */,
+				FE652274179C782E00C11B38 /* NJISessionTests.m */,
+			);
+			path = NJImgurServicesTests;
+			sourceTree = "<group>";
+		};
+		FE1BB87A176D2B1E0083A109 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FE1BB87B176D2B1E0083A109 /* NJImgurServicesTests-Info.plist */,
+				FE1BB87C176D2B1E0083A109 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FE1BB89F176D7CA20083A109 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FEDEADAA17768B6D009C7D6A /* Controllers */,
+				FE1BB8F6176E63800083A109 /* API Model Objects */,
+				FE1BB88E176D2C330083A109 /* NJIUpload.h */,
+				FE1BB88F176D2C330083A109 /* NJIUpload.m */,
+				FE1BB8AF176D8B1A0083A109 /* NJIUser.h */,
+				FE1BB8B0176D8B1A0083A109 /* NJIUser.m */,
+				FE1BB8B3176D8B490083A109 /* NJILoggedUser.h */,
+				FE1BB8B4176D8B490083A109 /* NJILoggedUser.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		FE1BB8A0176D7DD80083A109 /* Server */ = {
+			isa = PBXGroup;
+			children = (
+				FE555EDE1776126B00B58D87 /* Responses */,
+				FE1BB8EF176E53600083A109 /* Operations */,
+				FE1BB8E4176E418F0083A109 /* Requests */,
+				FE1BB8A5176D7F3A0083A109 /* NJIUploadController.h */,
+				FE1BB8A6176D7F3A0083A109 /* NJIUploadController.m */,
+				FE1BB8D8176E3F650083A109 /* NJIRequestParameter.h */,
+				FE1BB8D9176E3F650083A109 /* NJIRequestParameter.m */,
+				FE1BB8EA176E4BBF0083A109 /* NJIURLConnection.h */,
+				FE1BB8EB176E4BC00083A109 /* NJIURLConnection.m */,
+				FE1BB8EE176E50E80083A109 /* NJIResponseStatus.h */,
+				FE1BB8F0176E53D60083A109 /* NJIHTTPURLResponse.h */,
+				FE1BB8F1176E53D60083A109 /* NJIHTTPURLResponse.m */,
+			);
+			name = Server;
+			sourceTree = "<group>";
+		};
+		FE1BB8D3176E30F30083A109 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				FE3FC47B17BDAE6400524996 /* NSHTTPURLResponse+NJIAdditions.h */,
+				FE3FC47C17BDAE6400524996 /* NSHTTPURLResponse+NJIAdditions.m */,
+				FE3FC47D17BDAE6400524996 /* NSString+URLEncoding.m */,
+				FE3FC47E17BDAE6400524996 /* NSString+URLEncoding.h */,
+				FE1BB8CF176E30E90083A109 /* NSData+Base64.m */,
+				FE1BB8D0176E30E90083A109 /* NSData+Base64.h */,
+			);
+			name = Categories;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		FE1BB8E4176E418F0083A109 /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				FE1BB8E0176E41890083A109 /* NJIMutableURLRequest.h */,
+				FE1BB8E1176E41890083A109 /* NJIMutableURLRequest.m */,
+				FE1BB8E5176E420A0083A109 /* NJIUploadFileRequest.h */,
+				FE1BB8E6176E420A0083A109 /* NJIUploadFileRequest.m */,
+				FE43F851177A644C004AA797 /* NJIRefreshTokenRequest.h */,
+				FE43F852177A644C004AA797 /* NJIRefreshTokenRequest.m */,
+				FE3FC3E217B077BD00524996 /* NJICreditsRequest.h */,
+				FE3FC3E317B077BD00524996 /* NJICreditsRequest.m */,
+			);
+			name = Requests;
+			sourceTree = "<group>";
+		};
+		FE1BB8EF176E53600083A109 /* Operations */ = {
+			isa = PBXGroup;
+			children = (
+				FE1BB8A1176D7E050083A109 /* NJIUploadOperation.h */,
+				FE1BB8A2176D7E050083A109 /* NJIUploadOperation.m */,
+			);
+			name = Operations;
+			sourceTree = "<group>";
+		};
+		FE1BB8F4176E617E0083A109 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				FE1BB894176D2CF00083A109 /* NJIUploadDelegate.h */,
+				FE1BB8AE176D89C70083A109 /* NJILoginDelegate.h */,
+				FE1BB8E9176E45AB0083A109 /* NJIRequestParameterProtocol.h */,
+				FE1BB8F5176E61ED0083A109 /* NJIResponseObject.h */,
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
+		FE1BB8F6176E63800083A109 /* API Model Objects */ = {
+			isa = PBXGroup;
+			children = (
+				FE1BB8F7176E63A20083A109 /* NJIApiModelObject.h */,
+				FE1BB8F8176E63A20083A109 /* NJIApiModelObject.m */,
+				FE1BB89B176D7AE30083A109 /* NJIImage.h */,
+				FE1BB89C176D7AE30083A109 /* NJIImage.m */,
+				FE555EDA17760F9700B58D87 /* NJIBasic.h */,
+				FE555EDB17760F9800B58D87 /* NJIBasic.m */,
+				FE3FC3E617B07A3E00524996 /* NJICredits.h */,
+				FE3FC3E717B07A3E00524996 /* NJICredits.m */,
+			);
+			name = "API Model Objects";
+			sourceTree = "<group>";
+		};
+		FE555EC6177608B200B58D87 /* Third Party */ = {
+			isa = PBXGroup;
+			children = (
+				FE65225F179C6BC100C11B38 /* PDKeychainBindingController */,
+			);
+			name = "Third Party";
+			sourceTree = "<group>";
+		};
+		FE555EDE1776126B00B58D87 /* Responses */ = {
+			isa = PBXGroup;
+			children = (
+				FE555EDF1776128200B58D87 /* NJIBaseResponse.h */,
+				FE555EE01776128200B58D87 /* NJIBaseResponse.m */,
+				FE555EE31776129500B58D87 /* NJIUploadImageResponse.h */,
+				FE555EE41776129500B58D87 /* NJIUploadImageResponse.m */,
+				FE43F85B177A6649004AA797 /* NJIRefreshTokenResponse.h */,
+				FE43F85C177A6649004AA797 /* NJIRefreshTokenResponse.m */,
+			);
+			name = Responses;
+			sourceTree = "<group>";
+		};
+		FE555EEA17761A0800B58D87 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FE555EEB17761AB400B58D87 /* testImage.jpg */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		FE555EED17761CCA00B58D87 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				FE555EEE17761CE500B58D87 /* NJIDateUtils.h */,
+				FE555EEF17761CE500B58D87 /* NJIDateUtils.m */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		FE65225F179C6BC100C11B38 /* PDKeychainBindingController */ = {
+			isa = PBXGroup;
+			children = (
+				FE652260179C6BE200C11B38 /* PDKeychainBindings.h */,
+				FE652261179C6BE200C11B38 /* PDKeychainBindings.m */,
+				FE652262179C6BE200C11B38 /* PDKeychainBindingsController.h */,
+				FE652263179C6BE200C11B38 /* PDKeychainBindingsController.m */,
+			);
+			name = PDKeychainBindingController;
+			sourceTree = "<group>";
+		};
+		FEDEAD03177662A1009C7D6A /* ImgurApp */ = {
+			isa = PBXGroup;
+			children = (
+				FE652270179C71C600C11B38 /* testImage.jpeg */,
+				FEDEAD0C177662A1009C7D6A /* AppDelegate.h */,
+				FEDEAD0D177662A1009C7D6A /* AppDelegate.m */,
+				FEDEAD15177662A1009C7D6A /* ViewController.h */,
+				FEDEAD16177662A1009C7D6A /* ViewController.m */,
+				FEDEAD18177662A1009C7D6A /* ViewController.xib */,
+				FEDEAD04177662A1009C7D6A /* Supporting Files */,
+			);
+			path = ImgurApp;
+			sourceTree = "<group>";
+		};
+		FEDEAD04177662A1009C7D6A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FEDEAD05177662A1009C7D6A /* ImgurApp-Info.plist */,
+				FEDEAD06177662A1009C7D6A /* InfoPlist.strings */,
+				FEDEAD09177662A1009C7D6A /* main.m */,
+				FEDEAD0B177662A1009C7D6A /* ImgurApp-Prefix.pch */,
+				FEDEAD0F177662A1009C7D6A /* Default.png */,
+				FEDEAD11177662A1009C7D6A /* Default@2x.png */,
+				FEDEAD13177662A1009C7D6A /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FEDEADAA17768B6D009C7D6A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FE1BB88A176D2B7B0083A109 /* NJIController.h */,
+				FE1BB88B176D2B7B0083A109 /* NJIController.m */,
+				FEDEADAB17768B93009C7D6A /* NJIAuthenticationController.h */,
+				FEDEADAC17768B93009C7D6A /* NJIAuthenticationController.m */,
+				FEDEADBF17775976009C7D6A /* NJIFileManagerController.h */,
+				FEDEADC017775976009C7D6A /* NJIFileManagerController.m */,
+				FE43F860177A6F06004AA797 /* NJIJSONController.h */,
+				FE43F861177A6F06004AA797 /* NJIJSONController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		FEDEADB117769CA4009C7D6A /* UIViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				FEDEADB217769CC8009C7D6A /* NJIBaseViewController.h */,
+				FEDEADB317769CC8009C7D6A /* NJIBaseViewController.m */,
+				FEDEADB717769CE2009C7D6A /* NJILoginViewController.h */,
+				FEDEADB817769CE2009C7D6A /* NJILoginViewController.m */,
+			);
+			name = UIViewControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		FEDEACD6177661E2009C7D6A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEDEACD7177661ED009C7D6A /* NJIDateUtils.h in Headers */,
+				FEDEACDC177661ED009C7D6A /* NJIUploadDelegate.h in Headers */,
+				FEDEACDD177661ED009C7D6A /* NJILoginDelegate.h in Headers */,
+				FEDEACDE177661ED009C7D6A /* NJIRequestParameterProtocol.h in Headers */,
+				FEDEACDF177661ED009C7D6A /* NJIResponseObject.h in Headers */,
+				FEDEACE0177661ED009C7D6A /* NJIBaseResponse.h in Headers */,
+				FEDEACE1177661ED009C7D6A /* NJIUploadImageResponse.h in Headers */,
+				FEDEACE2177661ED009C7D6A /* NJIUploadOperation.h in Headers */,
+				FEDEACE3177661ED009C7D6A /* NJIMutableURLRequest.h in Headers */,
+				FEDEACE4177661ED009C7D6A /* NJIUploadFileRequest.h in Headers */,
+				FEDEACE5177661ED009C7D6A /* NJIUploadController.h in Headers */,
+				FEDEACE6177661ED009C7D6A /* NJIRequestParameter.h in Headers */,
+				FEDEACE7177661ED009C7D6A /* NJIURLConnection.h in Headers */,
+				FEDEACE8177661ED009C7D6A /* NJIResponseStatus.h in Headers */,
+				FEDEACE9177661ED009C7D6A /* NJIHTTPURLResponse.h in Headers */,
+				FEDEACED177661ED009C7D6A /* NJIConstants.h in Headers */,
+				FEDEACEE177661ED009C7D6A /* NJIAPIEndpoints.h in Headers */,
+				FEDEACF1177661ED009C7D6A /* NJIApiModelObject.h in Headers */,
+				FEDEACF2177661ED009C7D6A /* NJIImage.h in Headers */,
+				FEDEACF3177661ED009C7D6A /* NJIBasic.h in Headers */,
+				FEDEACF4177661ED009C7D6A /* NJIController.h in Headers */,
+				FEDEACF5177661ED009C7D6A /* NJIUpload.h in Headers */,
+				FE3FC3E817B07A3E00524996 /* NJICredits.h in Headers */,
+				FEDEACF6177661ED009C7D6A /* NJIUser.h in Headers */,
+				FEDEACF7177661ED009C7D6A /* NJILoggedUser.h in Headers */,
+				FEDEACEA177661ED009C7D6A /* NSData+Base64.h in Headers */,
+				FEDEADAD17768B93009C7D6A /* NJIAuthenticationController.h in Headers */,
+				FEDEADB417769CC8009C7D6A /* NJIBaseViewController.h in Headers */,
+				FEDEADB917769CE2009C7D6A /* NJILoginViewController.h in Headers */,
+				FEDEADBE177746F0009C7D6A /* NJINotifications.h in Headers */,
+				FEDEADC117775976009C7D6A /* NJIFileManagerController.h in Headers */,
+				FE43F853177A644C004AA797 /* NJIRefreshTokenRequest.h in Headers */,
+				FE43F85D177A6649004AA797 /* NJIRefreshTokenResponse.h in Headers */,
+				FE43F862177A6F06004AA797 /* NJIJSONController.h in Headers */,
+				FE652264179C6BE200C11B38 /* PDKeychainBindings.h in Headers */,
+				FE652267179C6BE200C11B38 /* PDKeychainBindingsController.h in Headers */,
+				FE65226B179C6F0900C11B38 /* NJILog.h in Headers */,
+				FE3FC3E417B077BD00524996 /* NJICreditsRequest.h in Headers */,
+				FE3FC47F17BDAE6400524996 /* NSHTTPURLResponse+NJIAdditions.h in Headers */,
+				FE3FC48217BDAE6400524996 /* NSString+URLEncoding.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		FE1BB85E176D2B1D0083A109 /* NJImgurServices */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE1BB884176D2B1E0083A109 /* Build configuration list for PBXNativeTarget "NJImgurServices" */;
+			buildPhases = (
+				FE1BB85B176D2B1D0083A109 /* Sources */,
+				FE1BB85C176D2B1D0083A109 /* Frameworks */,
+				FE8229A1176E8D68000DD2DF /* ShellScript */,
+				FE820C3A176E927100577CBF /* Resources */,
+				FEDEACD6177661E2009C7D6A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NJImgurServices;
+			productName = NJImgurServices;
+			productReference = FE1BB85F176D2B1E0083A109 /* libNJImgurServices.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		FE1BB86F176D2B1E0083A109 /* NJImgurServicesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE1BB887176D2B1E0083A109 /* Build configuration list for PBXNativeTarget "NJImgurServicesTests" */;
+			buildPhases = (
+				FE1BB86B176D2B1E0083A109 /* Sources */,
+				FE1BB86C176D2B1E0083A109 /* Frameworks */,
+				FE1BB86D176D2B1E0083A109 /* Resources */,
+				FE1BB86E176D2B1E0083A109 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE1BB877176D2B1E0083A109 /* PBXTargetDependency */,
+			);
+			name = NJImgurServicesTests;
+			productName = NJImgurServicesTests;
+			productReference = FE1BB870176D2B1E0083A109 /* NJImgurServicesTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+		FEDEACFE177662A1009C7D6A /* ImgurApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEDEAD1B177662A1009C7D6A /* Build configuration list for PBXNativeTarget "ImgurApp" */;
+			buildPhases = (
+				FEDEACFB177662A1009C7D6A /* Sources */,
+				FEDEACFC177662A1009C7D6A /* Frameworks */,
+				FEDEACFD177662A1009C7D6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FEDEAD1F177662AB009C7D6A /* PBXTargetDependency */,
+			);
+			name = ImgurApp;
+			productName = ImgurApp;
+			productReference = FEDEACFF177662A1009C7D6A /* ImgurApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE1BB857176D2B1D0083A109 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Nicolas Jakubowski";
+			};
+			buildConfigurationList = FE1BB85A176D2B1D0083A109 /* Build configuration list for PBXProject "NJImgurServices" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FE1BB856176D2B1D0083A109;
+			productRefGroup = FE1BB860176D2B1E0083A109 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE1BB85E176D2B1D0083A109 /* NJImgurServices */,
+				FE1BB86F176D2B1E0083A109 /* NJImgurServicesTests */,
+				FEDEACFE177662A1009C7D6A /* ImgurApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE1BB86D176D2B1E0083A109 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE1BB87E176D2B1E0083A109 /* InfoPlist.strings in Resources */,
+				FE555EEC17761AB400B58D87 /* testImage.jpg in Resources */,
+				FE652271179C71C600C11B38 /* testImage.jpeg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE820C3A176E927100577CBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEDEACFD177662A1009C7D6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEDEAD08177662A1009C7D6A /* InfoPlist.strings in Resources */,
+				FEDEAD10177662A1009C7D6A /* Default.png in Resources */,
+				FEDEAD12177662A1009C7D6A /* Default@2x.png in Resources */,
+				FEDEAD14177662A1009C7D6A /* Default-568h@2x.png in Resources */,
+				FEDEAD1A177662A1009C7D6A /* ViewController.xib in Resources */,
+				FE652272179C71C600C11B38 /* testImage.jpeg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		FE1BB86E176D2B1E0083A109 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+		FE8229A1176E8D68000DD2DF /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "##########################################\n#\n# c.f. http://stackoverflow.com/questions/3520977/build-fat-static-library-device-simulator-using-xcode-and-sdk-4\n#\n# Version 2.7\n#\n# Latest Change:\n# - Supports iPhone 5 / iPod Touch 5 (uses Apple's workaround to lipo bug)\n#\n# Purpose:\n#   Automatically create a Universal static library for iPhone + iPad + iPhone Simulator from within XCode\n#\n# Author: Adam Martin - http://twitter.com/t_machine_org\n# Based on: original script from Eonil (main changes: Eonil's script WILL NOT WORK in Xcode GUI - it WILL CRASH YOUR COMPUTER)\n#\n\nset -e\nset -o pipefail\n\n#################[ Tests: helps workaround any future bugs in Xcode ]########\n#\nDEBUG_THIS_SCRIPT=\"false\"\n\nif [ $DEBUG_THIS_SCRIPT = \"true\" ]\nthen\necho \"########### TESTS #############\"\necho \"Use the following variables when debugging this script; note that they may change on recursions\"\necho \"BUILD_DIR = $BUILD_DIR\"\necho \"BUILD_ROOT = $BUILD_ROOT\"\necho \"CONFIGURATION_BUILD_DIR = $CONFIGURATION_BUILD_DIR\"\necho \"BUILT_PRODUCTS_DIR = $BUILT_PRODUCTS_DIR\"\necho \"CONFIGURATION_TEMP_DIR = $CONFIGURATION_TEMP_DIR\"\necho \"TARGET_BUILD_DIR = $TARGET_BUILD_DIR\"\nfi\n\n#####################[ part 1 ]##################\n# First, work out the BASESDK version number (NB: Apple ought to report this, but they hide it)\n#    (incidental: searching for substrings in sh is a nightmare! Sob)\n\nSDK_VERSION=$(echo ${SDK_NAME} | grep -o '.\\{3\\}$')\n\n# Next, work out if we're in SIM or DEVICE\n\nif [ ${PLATFORM_NAME} = \"iphonesimulator\" ]\nthen\nOTHER_SDK_TO_BUILD=iphoneos${SDK_VERSION}\nelse\nOTHER_SDK_TO_BUILD=iphonesimulator${SDK_VERSION}\nfi\n\necho \"XCode has selected SDK: ${PLATFORM_NAME} with version: ${SDK_VERSION} (although back-targetting: ${IPHONEOS_DEPLOYMENT_TARGET})\"\necho \"...therefore, OTHER_SDK_TO_BUILD = ${OTHER_SDK_TO_BUILD}\"\n#\n#####################[ end of part 1 ]##################\n\n#####################[ part 2 ]##################\n#\n# IF this is the original invocation, invoke WHATEVER other builds are required\n#\n# Xcode is already building ONE target...\n#\n# ...but this is a LIBRARY, so Apple is wrong to set it to build just one.\n# ...we need to build ALL targets\n# ...we MUST NOT re-build the target that is ALREADY being built: Xcode WILL CRASH YOUR COMPUTER if you try this (infinite recursion!)\n#\n#\n# So: build ONLY the missing platforms/configurations.\n\nif [ \"true\" == ${ALREADYINVOKED:-false} ]\nthen\necho \"RECURSION: I am NOT the root invocation, so I'm NOT going to recurse\"\nelse\n# CRITICAL:\n# Prevent infinite recursion (Xcode sucks)\nexport ALREADYINVOKED=\"true\"\n\necho \"RECURSION: I am the root ... recursing all missing build targets NOW...\"\necho \"RECURSION: ...about to invoke: xcodebuild -configuration \\\"${CONFIGURATION}\\\" -project \\\"${PROJECT_NAME}.xcodeproj\\\" -target \\\"${TARGET_NAME}\\\" -sdk \\\"${OTHER_SDK_TO_BUILD}\\\" ${ACTION} RUN_CLANG_STATIC_ANALYZER=NO\" BUILD_DIR=\\\"${BUILD_DIR}\\\" BUILD_ROOT=\\\"${BUILD_ROOT}\\\" SYMROOT=\\\"${SYMROOT}\\\"\n\nxcodebuild -configuration \"${CONFIGURATION}\" -project \"${PROJECT_NAME}.xcodeproj\" -target \"${TARGET_NAME}\" -sdk \"${OTHER_SDK_TO_BUILD}\" ${ACTION} RUN_CLANG_STATIC_ANALYZER=NO BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" SYMROOT=\"${SYMROOT}\"\n\nACTION=\"build\"\n\n#Merge all platform binaries as a fat binary for each configurations.\n\n# Calculate where the (multiple) built files are coming from:\nCURRENTCONFIG_DEVICE_DIR=${SYMROOT}/${CONFIGURATION}-iphoneos\nCURRENTCONFIG_SIMULATOR_DIR=${SYMROOT}/${CONFIGURATION}-iphonesimulator\n\necho \"Taking device build from: ${CURRENTCONFIG_DEVICE_DIR}\"\necho \"Taking simulator build from: ${CURRENTCONFIG_SIMULATOR_DIR}\"\n\nCREATING_UNIVERSAL_DIR=${SYMROOT}/${CONFIGURATION}-universal\necho \"...I will output a universal build to: ${CREATING_UNIVERSAL_DIR}\"\n\n# ... remove the products of previous runs of this script\n#      NB: this directory is ONLY created by this script - it should be safe to delete!\n\nrm -rf \"${CREATING_UNIVERSAL_DIR}\"\nmkdir \"${CREATING_UNIVERSAL_DIR}\"\n\n#\necho \"lipo: for current configuration (${CONFIGURATION}) creating output file: ${CREATING_UNIVERSAL_DIR}/${EXECUTABLE_NAME}\"\nxcrun -sdk iphoneos lipo -create -output \"${CREATING_UNIVERSAL_DIR}/${EXECUTABLE_NAME}\" \"${CURRENTCONFIG_DEVICE_DIR}/${EXECUTABLE_NAME}\" \"${CURRENTCONFIG_SIMULATOR_DIR}/${EXECUTABLE_NAME}\"\n\n#########\n#\n# Added: StackOverflow suggestion to also copy \"include\" files\n#    (untested, but should work OK)\n#\necho \"Fetching headers from ${PUBLIC_HEADERS_FOLDER_PATH}\"\necho \"  (if you embed your library project in another project, you will need to add\"\necho \"   a \"User Search Headers\" build setting of: (NB INCLUDE THE DOUBLE QUOTES BELOW!)\"\necho '        \"$(TARGET_BUILD_DIR)/usr/local/include/\"'\nif [ -d \"${CURRENTCONFIG_DEVICE_DIR}${PUBLIC_HEADERS_FOLDER_PATH}\" ]\nthen\nmkdir -p \"${CREATING_UNIVERSAL_DIR}${PUBLIC_HEADERS_FOLDER_PATH}\"\n# * needs to be outside the double quotes?\ncp -r \"${CURRENTCONFIG_DEVICE_DIR}${PUBLIC_HEADERS_FOLDER_PATH}\"* \"${CREATING_UNIVERSAL_DIR}${PUBLIC_HEADERS_FOLDER_PATH}\"\nfi\nfi";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE1BB85B176D2B1D0083A109 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE1BB88C176D2B7B0083A109 /* NJIController.m in Sources */,
+				FE1BB890176D2C330083A109 /* NJIUpload.m in Sources */,
+				FE1BB89D176D7AE30083A109 /* NJIImage.m in Sources */,
+				FE1BB8A3176D7E050083A109 /* NJIUploadOperation.m in Sources */,
+				FE1BB8A7176D7F3B0083A109 /* NJIUploadController.m in Sources */,
+				FE1BB8B1176D8B1A0083A109 /* NJIUser.m in Sources */,
+				FE1BB8B5176D8B4A0083A109 /* NJILoggedUser.m in Sources */,
+				FE1BB8D1176E30E90083A109 /* NSData+Base64.m in Sources */,
+				FE1BB8D6176E34900083A109 /* NJIAPIEndpoints.m in Sources */,
+				FE1BB8DA176E3F650083A109 /* NJIRequestParameter.m in Sources */,
+				FE1BB8E2176E41890083A109 /* NJIMutableURLRequest.m in Sources */,
+				FE1BB8E7176E420A0083A109 /* NJIUploadFileRequest.m in Sources */,
+				FE1BB8EC176E4BC00083A109 /* NJIURLConnection.m in Sources */,
+				FE1BB8F2176E53D60083A109 /* NJIHTTPURLResponse.m in Sources */,
+				FE1BB8F9176E63A20083A109 /* NJIApiModelObject.m in Sources */,
+				FE555EDC17760F9800B58D87 /* NJIBasic.m in Sources */,
+				FE555EE11776128200B58D87 /* NJIBaseResponse.m in Sources */,
+				FE555EE51776129500B58D87 /* NJIUploadImageResponse.m in Sources */,
+				FE555EF017761CE500B58D87 /* NJIDateUtils.m in Sources */,
+				FEDEADAE17768B93009C7D6A /* NJIAuthenticationController.m in Sources */,
+				FEDEADB517769CC8009C7D6A /* NJIBaseViewController.m in Sources */,
+				FEDEADBA17769CE2009C7D6A /* NJILoginViewController.m in Sources */,
+				FEDEADC217775976009C7D6A /* NJIFileManagerController.m in Sources */,
+				FE43F854177A644C004AA797 /* NJIRefreshTokenRequest.m in Sources */,
+				FE43F85E177A6649004AA797 /* NJIRefreshTokenResponse.m in Sources */,
+				FE43F863177A6F06004AA797 /* NJIJSONController.m in Sources */,
+				FE652265179C6BE200C11B38 /* PDKeychainBindings.m in Sources */,
+				FE652268179C6BE200C11B38 /* PDKeychainBindingsController.m in Sources */,
+				FE3FC3E517B077BD00524996 /* NJICreditsRequest.m in Sources */,
+				FE3FC3E917B07A3E00524996 /* NJICredits.m in Sources */,
+				FE3FC48017BDAE6400524996 /* NSHTTPURLResponse+NJIAdditions.m in Sources */,
+				FE3FC48117BDAE6400524996 /* NSString+URLEncoding.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE1BB86B176D2B1E0083A109 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE1BB88D176D2B7B0083A109 /* NJIController.m in Sources */,
+				FE1BB891176D2C330083A109 /* NJIUpload.m in Sources */,
+				FE1BB89E176D7AE30083A109 /* NJIImage.m in Sources */,
+				FE1BB8A4176D7E050083A109 /* NJIUploadOperation.m in Sources */,
+				FE1BB8A8176D7F3B0083A109 /* NJIUploadController.m in Sources */,
+				FE1BB8B2176D8B1A0083A109 /* NJIUser.m in Sources */,
+				FE1BB8B6176D8B4A0083A109 /* NJILoggedUser.m in Sources */,
+				FE1BB8D2176E30E90083A109 /* NSData+Base64.m in Sources */,
+				FE1BB8D7176E34900083A109 /* NJIAPIEndpoints.m in Sources */,
+				FE1BB8DB176E3F650083A109 /* NJIRequestParameter.m in Sources */,
+				FE1BB8E3176E41890083A109 /* NJIMutableURLRequest.m in Sources */,
+				FE1BB8E8176E420A0083A109 /* NJIUploadFileRequest.m in Sources */,
+				FE1BB8ED176E4BC00083A109 /* NJIURLConnection.m in Sources */,
+				FE1BB8F3176E53D60083A109 /* NJIHTTPURLResponse.m in Sources */,
+				FE1BB8FA176E63A20083A109 /* NJIApiModelObject.m in Sources */,
+				FE555EDD17760F9800B58D87 /* NJIBasic.m in Sources */,
+				FE555EE21776128200B58D87 /* NJIBaseResponse.m in Sources */,
+				FE555EE61776129500B58D87 /* NJIUploadImageResponse.m in Sources */,
+				FE555EE9177619FD00B58D87 /* NJIUploadImageTests.m in Sources */,
+				FE555EF117761CE500B58D87 /* NJIDateUtils.m in Sources */,
+				FE555EF517763B1500B58D87 /* NJIUploadImageTimeoutTests.m in Sources */,
+				FEDEADAF17768B93009C7D6A /* NJIAuthenticationController.m in Sources */,
+				FEDEADB617769CC8009C7D6A /* NJIBaseViewController.m in Sources */,
+				FEDEADBB17769CE2009C7D6A /* NJILoginViewController.m in Sources */,
+				FEDEADC317775976009C7D6A /* NJIFileManagerController.m in Sources */,
+				FE43F855177A644C004AA797 /* NJIRefreshTokenRequest.m in Sources */,
+				FE43F85F177A6649004AA797 /* NJIRefreshTokenResponse.m in Sources */,
+				FE43F864177A6F06004AA797 /* NJIJSONController.m in Sources */,
+				FE652266179C6BE200C11B38 /* PDKeychainBindings.m in Sources */,
+				FE652269179C6BE200C11B38 /* PDKeychainBindingsController.m in Sources */,
+				FE652275179C782E00C11B38 /* NJISessionTests.m in Sources */,
+				FE3FC4AD17BDC12E00524996 /* NSString+URLEncoding.m in Sources */,
+				FE3FC4AE17BDC17A00524996 /* NSHTTPURLResponse+NJIAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEDEACFB177662A1009C7D6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEDEAD0A177662A1009C7D6A /* main.m in Sources */,
+				FEDEAD0E177662A1009C7D6A /* AppDelegate.m in Sources */,
+				FEDEAD17177662A1009C7D6A /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FE1BB877176D2B1E0083A109 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE1BB85E176D2B1D0083A109 /* NJImgurServices */;
+			targetProxy = FE1BB876176D2B1E0083A109 /* PBXContainerItemProxy */;
+		};
+		FEDEAD1F177662AB009C7D6A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE1BB85E176D2B1D0083A109 /* NJImgurServices */;
+			targetProxy = FEDEAD1E177662AB009C7D6A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FE1BB87C176D2B1E0083A109 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE1BB87D176D2B1E0083A109 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FEDEAD06177662A1009C7D6A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEDEAD07177662A1009C7D6A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FEDEAD18177662A1009C7D6A /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEDEAD19177662A1009C7D6A /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FE1BB882176D2B1E0083A109 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FE1BB883176D2B1E0083A109 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE1BB885176D2B1E0083A109 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				DSTROOT = /tmp/NJImgurServices.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NJImgurServices/NJImgurServices-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = /include;
+				SKIP_INSTALL = YES;
+				VALID_ARCHS = "armv7 armv7s i386";
+			};
+			name = Debug;
+		};
+		FE1BB886176D2B1E0083A109 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				DSTROOT = /tmp/NJImgurServices.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NJImgurServices/NJImgurServices-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = /include;
+				SKIP_INSTALL = YES;
+				VALID_ARCHS = "armv7 armv7s i386";
+			};
+			name = Release;
+		};
+		FE1BB888176D2B1E0083A109 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NJImgurServices/NJImgurServices-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"NJIDEBUG=1",
+					"NJITESTING=1",
+				);
+				INFOPLIST_FILE = "NJImgurServicesTests/NJImgurServicesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		FE1BB889176D2B1E0083A109 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NJImgurServices/NJImgurServices-Prefix.pch";
+				INFOPLIST_FILE = "NJImgurServicesTests/NJImgurServicesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+		FE3FC4A817BDBC5200524996 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Distribution;
+		};
+		FE3FC4A917BDBC5200524996 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				DSTROOT = /tmp/NJImgurServices.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NJImgurServices/NJImgurServices-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = /include;
+				SKIP_INSTALL = YES;
+				VALID_ARCHS = "armv7 armv7s i386";
+			};
+			name = Distribution;
+		};
+		FE3FC4AA17BDBC5200524996 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NJImgurServices/NJImgurServices-Prefix.pch";
+				INFOPLIST_FILE = "NJImgurServicesTests/NJImgurServicesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Distribution;
+		};
+		FE3FC4AB17BDBC5200524996 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ImgurApp/ImgurApp-Prefix.pch";
+				INFOPLIST_FILE = "ImgurApp/ImgurApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Distribution;
+		};
+		FEDEAD1C177662A1009C7D6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ImgurApp/ImgurApp-Prefix.pch";
+				INFOPLIST_FILE = "ImgurApp/ImgurApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FEDEAD1D177662A1009C7D6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ImgurApp/ImgurApp-Prefix.pch";
+				INFOPLIST_FILE = "ImgurApp/ImgurApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE1BB85A176D2B1D0083A109 /* Build configuration list for PBXProject "NJImgurServices" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE1BB882176D2B1E0083A109 /* Debug */,
+				FE1BB883176D2B1E0083A109 /* Release */,
+				FE3FC4A817BDBC5200524996 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE1BB884176D2B1E0083A109 /* Build configuration list for PBXNativeTarget "NJImgurServices" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE1BB885176D2B1E0083A109 /* Debug */,
+				FE1BB886176D2B1E0083A109 /* Release */,
+				FE3FC4A917BDBC5200524996 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE1BB887176D2B1E0083A109 /* Build configuration list for PBXNativeTarget "NJImgurServicesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE1BB888176D2B1E0083A109 /* Debug */,
+				FE1BB889176D2B1E0083A109 /* Release */,
+				FE3FC4AA17BDBC5200524996 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEDEAD1B177662A1009C7D6A /* Build configuration list for PBXNativeTarget "ImgurApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEDEAD1C177662A1009C7D6A /* Debug */,
+				FEDEAD1D177662A1009C7D6A /* Release */,
+				FE3FC4AB17BDBC5200524996 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE1BB857176D2B1D0083A109 /* Project object */;
+}

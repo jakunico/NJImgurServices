@@ -1,0 +1,8 @@
+//
+// Prefix header for all source files of the 'NJImgurServices' target in the 'NJImgurServices' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import "NJILog.h"
+#endif

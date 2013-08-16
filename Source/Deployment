@@ -1,0 +1,13 @@
+Distribution
+
+1. Remove NJIDebug from Preprocessed Macros
+2. Build.
+3. Take library from Universal folder (not iphoneos nor simulator).
+
+Unit Test
+
+1. Add ClientId and ClientSecret in NJITestConstants.h
+
+ImgurApp
+
+1. Add ClientId and ClientSecret in ViewController.m

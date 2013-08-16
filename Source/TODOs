@@ -1,0 +1,12 @@
+KNOWN ISSUES
+
+TODOs / Future updates
+
+[ ] - Create readme file
+[ ] - Improve locks code in Unit Tests
+[ ] - Tests should not be asynchronous
+[ ] - Write refresh token tests
+[ ] - CocoaPods
+[ ] - Debug macro needs to be manually removed, archivo doesn't seem to include the library.
+[ ] - Upload asynchronously instead of synchronous
+[ ] - Upload progress
