@@ -29,7 +29,7 @@ SampleApp folder contains a very simple sample application in case you need it.
 
 # Usage
 
-##Prerequisites
+## Prerequisites
 
 You'll need a **clientId** and **clientSecret** tokens. You can obtain those [here](https://api.imgur.com/oauth2/addclient). 
 
